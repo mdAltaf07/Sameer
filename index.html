@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer Khan | Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            padding: 40px 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+        
+        h1 { margin: 10px 0 5px; color: #333; font-size: 1.6rem; }
+        p.bio { color: #666; margin-bottom: 30px; font-size: 0.95rem; }
+
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .app-btn {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: relative;
+            justify-content: center;
+        }
+
+        .app-btn:active { transform: scale(0.98); }
+        .app-btn:hover { transform: translateY(-3px); box-shadow: 0 6px 15px rgba(0,0,0,0.2); }
+
+        .app-btn i {
+            position: absolute;
+            left: 25px;
+            font-size: 1.5rem;
+        }
+
+        /* Updated Colors */
+        .btn-insta { 
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+        }
+        .btn-yt { 
+            background: #FF0000; 
+        }
+        .btn-mail { 
+            background: #EA4335; 
+        }
+        .btn-call { 
+            background: #34b7f1; 
+        }
+
+        .footer {
+            margin-top: 35px;
+            font-size: 0.8rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=BEGIN%3AVCARD%0AVERSION%3A3.0%0AN%3AKhan%3BSameer%0AFN%3ASameer%20Khan%0ATITLE%3AB.A.%20LL.B.%20Honors%0AORG%3ALegal%20%26%20Content%20Creator%0ATEL%3BTYPE%3DCELL%3A%2B919179152006%0AEMAIL%3Asameerkhan78604a%40gmail.com%0AURL%3Ahttps%3A%2F%2Fyoutube.com%2F%40lawyer_sameer%0ANOTE%3AInstagram%3A%20%40_lawyer_sameer%0AEND%3AVCARD" alt="Sameer Khan" class="profile-img">
+        
+        <h1>Sameer Khan</h1>
+        <p class="bio">B.A. LL.B. Honors | Content Creator<br>Legal Awareness</p>
+
+        <div class="btn-container">
+            
+            <a href="https://www.instagram.com/_lawyer_sameer" class="app-btn btn-insta" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+
+            <a href="https://www.youtube.com/@lawyer_sameer" class="app-btn btn-yt" target="_blank">
+                <i class="fab fa-youtube"></i> YouTube Channel
+            </a>
+
+            <a href="mailto:sameerkhan78604a@gmail.com" class="app-btn btn-mail">
+                <i class="fas fa-envelope"></i> Email Me
+            </a>
+
+            <a href="tel:+919179152006" class="app-btn btn-call">
+                <i class="fas fa-phone-alt"></i> Call +91 9179152006
+            </a>
+
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Sameer Khan
+        </div>
+    </div>
+
+</body>
+</html>
